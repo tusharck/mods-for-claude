@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="350" viewBox="0 0 785 350" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="350" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="265.2" lengthAdjust="spacingAndGlyphs">/goal add coupon codes to checkout</text>
+<text x="18.0" y="86" fill="#d97757" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" textLength="257.4" lengthAdjust="spacingAndGlyphs">Plan: model, API, UI, then tests.</text>
+<text x="18.0" y="106" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="106" fill="#d7d7de" font-weight="700" textLength="46.8" lengthAdjust="spacingAndGlyphs">Update</text>
+<text x="80.4" y="106" fill="#7c7c8a" textLength="171.6" lengthAdjust="spacingAndGlyphs">(prisma/schema.prisma)</text>
+<text x="18.0" y="126" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="126" fill="#7c7c8a" textLength="140.4" lengthAdjust="spacingAndGlyphs">Added Coupon model</text>
+<text x="18.0" y="146" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="146" fill="#d7d7de" font-weight="700" textLength="39.0" lengthAdjust="spacingAndGlyphs">Write</text>
+<text x="72.6" y="146" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">(src/api/coupons.ts)</text>
+<text x="18.0" y="166" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="166" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs">Wrote 64 lines</text>
+<text x="18.0" y="186" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="186" fill="#d7d7de" font-weight="700" textLength="46.8" lengthAdjust="spacingAndGlyphs">Update</text>
+<text x="80.4" y="186" fill="#7c7c8a" textLength="202.8" lengthAdjust="spacingAndGlyphs">(src/checkout/Summary.tsx)</text>
+<rect x="14" y="214" width="429.0" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="238" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="238" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="272" fill="#d97757">🎯 3/7 · 12m</text>
+<rect x="454.6" y="46" width="308.4" height="284" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="462.6" y="66" fill="#d97757" font-weight="700">🎯 Goal</text>
+<text x="462.6" y="92" fill="#d7d7de" font-weight="700" textLength="218.4" lengthAdjust="spacingAndGlyphs">add coupon codes to checkout</text>
+<text x="462.6" y="112" fill="#7c7c8a" textLength="70.2" lengthAdjust="spacingAndGlyphs">⏱ 12m 04s</text>
+<text x="462.6" y="152" fill="#7c7c8a" textLength="62.4" lengthAdjust="spacingAndGlyphs">Planning</text>
+<text x="525.0" y="152" fill="#3a3a46" textLength="23.4" lengthAdjust="spacingAndGlyphs"> → </text>
+<text x="548.4" y="152" fill="#e8c06c" font-weight="700" textLength="62.4" lengthAdjust="spacingAndGlyphs">Building</text>
+<text x="610.8" y="152" fill="#3a3a46" textLength="23.4" lengthAdjust="spacingAndGlyphs"> → </text>
+<text x="634.2" y="152" fill="#3a3a46" textLength="109.2" lengthAdjust="spacingAndGlyphs">Testing → Done</text>
+<text x="462.6" y="192" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">✔ </text>
+<text x="478.2" y="192" fill="#7c7c8a" textLength="187.2" lengthAdjust="spacingAndGlyphs">Coupon model + migration</text>
+<text x="462.6" y="212" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">✔ </text>
+<text x="478.2" y="212" fill="#7c7c8a" textLength="148.2" lengthAdjust="spacingAndGlyphs">POST /coupons/apply</text>
+<text x="462.6" y="232" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">✔ </text>
+<text x="478.2" y="232" fill="#7c7c8a" textLength="187.2" lengthAdjust="spacingAndGlyphs">Validate expiry + limits</text>
+<text x="462.6" y="252" fill="#e8c06c" textLength="15.6" lengthAdjust="spacingAndGlyphs">◐ </text>
+<text x="478.2" y="252" fill="#d7d7de" textLength="179.4" lengthAdjust="spacingAndGlyphs">Coupon field in summary</text>
+<text x="462.6" y="272" fill="#3a3a46" textLength="15.6" lengthAdjust="spacingAndGlyphs">○ </text>
+<text x="478.2" y="272" fill="#d7d7de" textLength="140.4" lengthAdjust="spacingAndGlyphs">Show discount line</text>
+<text x="462.6" y="292" fill="#3a3a46" textLength="15.6" lengthAdjust="spacingAndGlyphs">○ </text>
+<text x="478.2" y="292" fill="#d7d7de" textLength="78.0" lengthAdjust="spacingAndGlyphs">Unit tests</text>
+<text x="462.6" y="312" fill="#3a3a46" textLength="15.6" lengthAdjust="spacingAndGlyphs">○ </text>
+<text x="478.2" y="312" fill="#d7d7de" textLength="132.6" lengthAdjust="spacingAndGlyphs">E2E checkout test</text>
+</svg>

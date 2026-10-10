@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="310" viewBox="0 0 785 310" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="310" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="257.4" lengthAdjust="spacingAndGlyphs">why is the welcome email failing?</text>
+<text x="18.0" y="86" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Read</text>
+<text x="64.8" y="86" fill="#7c7c8a" textLength="46.8" lengthAdjust="spacingAndGlyphs">(.env)</text>
+<text x="18.0" y="106" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="106" fill="#7c7c8a" textLength="202.8" lengthAdjust="spacingAndGlyphs">STRIPE_KEY=sk-••••••••3f2a</text>
+<text x="18.0" y="126" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">     </text>
+<text x="57.0" y="126" fill="#7c7c8a" textLength="171.6" lengthAdjust="spacingAndGlyphs">SMTP_USER=j•••@•••.com</text>
+<text x="18.0" y="146" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">     </text>
+<text x="57.0" y="146" fill="#7c7c8a" textLength="171.6" lengthAdjust="spacingAndGlyphs">DB_HOST=•••.•••.•••.12</text>
+<text x="18.0" y="166" fill="#d97757" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="166" fill="#d7d7de" textLength="444.6" lengthAdjust="spacingAndGlyphs">SMTP rejects j•••@•••.com: the app password expired. Your</text>
+<text x="18.0" y="186" fill="#d7d7de" textLength="444.6" lengthAdjust="spacingAndGlyphs">  last invoice ($••,•••) went out fine before the change.</text>
+<rect x="14" y="214" width="748.8" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="238" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="238" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="272" fill="#ec6f7a" font-weight="700">🔴 REC · blur on</text>
+<text x="142.8" y="272" fill="#7c7c8a" textLength="124.8" lengthAdjust="spacingAndGlyphs">  ·  /record off</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="350" viewBox="0 0 785 350" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="350" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#5fc4d4">🔁 Context hit 80%. Saved handoff → .claude/handoffs/2026-10-10-1432.md</text>
+<text x="18.0" y="86" fill="#5fc4d4">🔁 Cleared. Continuing in a fresh conversation…</text>
+<text x="18.0" y="126" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="126" fill="#d7d7de" font-weight="700" textLength="257.4" lengthAdjust="spacingAndGlyphs">Handoff from the previous session</text>
+<text x="18.0" y="146" fill="#8fcf7a" textLength="109.2" lengthAdjust="spacingAndGlyphs">  ✔ Verified: </text>
+<text x="127.2" y="146" fill="#d7d7de" textLength="343.2" lengthAdjust="spacingAndGlyphs">cart totals use integer cents; 48 tests pass</text>
+<text x="18.0" y="166" fill="#ec6f7a" textLength="85.8" lengthAdjust="spacingAndGlyphs">  ✘ Tried: </text>
+<text x="103.8" y="166" fill="#d7d7de" textLength="265.2" lengthAdjust="spacingAndGlyphs">Decimal.js (too slow on big carts)</text>
+<text x="18.0" y="186" fill="#e8c06c" textLength="132.6" lengthAdjust="spacingAndGlyphs">  ⚑ Constraints: </text>
+<text x="150.6" y="186" fill="#d7d7de" textLength="210.6" lengthAdjust="spacingAndGlyphs">no new deps; keep API shape</text>
+<text x="18.0" y="206" fill="#d97757" textLength="78.0" lengthAdjust="spacingAndGlyphs">  ➜ Next: </text>
+<text x="96.0" y="206" fill="#d7d7de" textLength="312.0" lengthAdjust="spacingAndGlyphs">update the invoice PDF to the new totals</text>
+<text x="18.0" y="226" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="226" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Read</text>
+<text x="64.8" y="226" fill="#7c7c8a" textLength="163.8" lengthAdjust="spacingAndGlyphs">(src/invoices/pdf.ts)</text>
+<rect x="14" y="254" width="748.8" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="278" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="278" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="312" fill="#7c7c8a">🔁 handoff at 80% · auto</text>
+</svg>

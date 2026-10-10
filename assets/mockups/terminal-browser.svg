@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="350" viewBox="0 0 785 350" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="350" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="156.0" lengthAdjust="spacingAndGlyphs">build a pricing page</text>
+<text x="18.0" y="86" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" font-weight="700" textLength="39.0" lengthAdjust="spacingAndGlyphs">Write</text>
+<text x="72.6" y="86" fill="#7c7c8a" textLength="163.8" lengthAdjust="spacingAndGlyphs">(public/pricing.html)</text>
+<text x="18.0" y="106" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="106" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">Wrote 112 lines</text>
+<text x="18.0" y="126" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="126" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Bash</text>
+<text x="64.8" y="126" fill="#7c7c8a" textLength="78.0" lengthAdjust="spacingAndGlyphs">(pnpm dev)</text>
+<text x="18.0" y="146" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="146" fill="#7c7c8a" textLength="218.4" lengthAdjust="spacingAndGlyphs">Local: http://localhost:5173</text>
+<text x="18.0" y="166" fill="#d97757" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="166" fill="#d7d7de" textLength="335.4" lengthAdjust="spacingAndGlyphs">The pricing page is live on localhost:5173.</text>
+<text x="18.0" y="206" fill="#d7d7de">🌐 Open </text>
+<text x="80.4" y="206" fill="#5fc4d4" textLength="171.6" lengthAdjust="spacingAndGlyphs">localhost:5173/pricing</text>
+<text x="252.0" y="206" fill="#d7d7de" textLength="109.2" lengthAdjust="spacingAndGlyphs"> in the pane? </text>
+<rect x="361.2" y="192" width="62.4" height="19" rx="4" fill="#d97757"/>
+<text x="365.1" y="206" fill="#ffffff" font-weight="700">o</text>
+<text x="380.7" y="206" fill="#ffffff" textLength="31.2" lengthAdjust="spacingAndGlyphs">Open</text>
+<rect x="14" y="220" width="429.0" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="244" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="244" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="278" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">? for shortcuts</text>
+<rect x="454.6" y="46" width="308.4" height="284" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="462.6" y="66" fill="#d97757" font-weight="700">🌐 localhost:5173/pricing  · reader</text>
+<text x="462.6" y="92" fill="#ffffff" font-weight="700" textLength="124.8" lengthAdjust="spacingAndGlyphs"># Simple pricing</text>
+<text x="462.6" y="112" fill="#7c7c8a" textLength="187.2" lengthAdjust="spacingAndGlyphs">Pick the plan that fits.</text>
+<text x="462.6" y="152" fill="#d97757" font-weight="700" textLength="140.4" lengthAdjust="spacingAndGlyphs">## Starter · $9/mo</text>
+<text x="462.6" y="172" fill="#d7d7de" textLength="85.8" lengthAdjust="spacingAndGlyphs">- 1 project</text>
+<text x="462.6" y="192" fill="#d7d7de" textLength="117.0" lengthAdjust="spacingAndGlyphs">- Email support</text>
+<text x="462.6" y="232" fill="#d97757" font-weight="700" textLength="124.8" lengthAdjust="spacingAndGlyphs">## Team · $29/mo</text>
+<text x="462.6" y="252" fill="#d7d7de" textLength="156.0" lengthAdjust="spacingAndGlyphs">- Unlimited projects</text>
+<text x="462.6" y="272" fill="#d7d7de" textLength="15.6" lengthAdjust="spacingAndGlyphs">- </text>
+<text x="478.2" y="272" fill="#6fa8f5" textLength="101.4" lengthAdjust="spacingAndGlyphs">Compare plans</text>
+<text x="579.6" y="272" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs"> ↗</text>
+<text x="462.6" y="312" fill="#7c7c8a" textLength="249.6" lengthAdjust="spacingAndGlyphs">← back · r reload · s screenshot</text>
+</svg>

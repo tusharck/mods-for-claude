@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="300" viewBox="0 0 785 300" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="300" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="101.4" lengthAdjust="spacingAndGlyphs">/watch-pr 142</text>
+<text x="18.0" y="86" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="86" fill="#7c7c8a" textLength="163.8" lengthAdjust="spacingAndGlyphs">Watching #142 Add SSO</text>
+<text x="18.0" y="106" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="106" fill="#d7d7de" font-weight="700" textLength="101.4" lengthAdjust="spacingAndGlyphs">/watch-pr 147</text>
+<text x="18.0" y="126" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="126" fill="#7c7c8a" textLength="257.4" lengthAdjust="spacingAndGlyphs">Watching #147 Fix flaky cart test</text>
+<text x="18.0" y="166" fill="#5fc4d4" font-weight="700" textLength="39.0" lengthAdjust="spacingAndGlyphs">#142 </text>
+<text x="57.0" y="166" fill="#d7d7de" textLength="54.6" lengthAdjust="spacingAndGlyphs">Add SSO</text>
+<text x="111.6" y="166" fill="#7c7c8a"> · 🟢 checks · 👀 1 review requested · ✅ mergeable</text>
+<text x="18.0" y="186" fill="#5fc4d4" font-weight="700" textLength="39.0" lengthAdjust="spacingAndGlyphs">#147 </text>
+<text x="57.0" y="186" fill="#d7d7de" textLength="148.2" lengthAdjust="spacingAndGlyphs">Fix flaky cart test</text>
+<text x="205.2" y="186" fill="#7c7c8a"> · 🟡 checks running · 💬 2 comments</text>
+<rect x="14" y="200" width="748.8" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="224" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="224" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="258" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">? for shortcuts</text>
+<rect x="571.8" y="44" width="195.0" height="28" rx="6" fill="#2b2b36" stroke="#8fcf7a"/>
+<text x="587.4" y="63" fill="#d7d7de">✅ #142 checks passed</text>
+</svg>

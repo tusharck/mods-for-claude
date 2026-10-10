@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="250" viewBox="0 0 785 250" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="250" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="70.2" lengthAdjust="spacingAndGlyphs">/sessions</text>
+<text x="18.0" y="86" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="86" fill="#7c7c8a" textLength="202.8" lengthAdjust="spacingAndGlyphs">4 sessions on this machine</text>
+<rect x="14" y="154" width="366.6" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="178" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="178" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="212" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs">🛰️ 3 others · </text>
+<text x="127.2" y="212" fill="#e8c06c" font-weight="700" textLength="85.8" lengthAdjust="spacingAndGlyphs">1 needs you</text>
+<rect x="392.2" y="46" width="370.8" height="184" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="400.2" y="66" fill="#d97757" font-weight="700" textLength="85.8" lengthAdjust="spacingAndGlyphs">🛰️ Sessions</text>
+<text x="400.2" y="92" fill="#d7d7de">🟢 shop-api  </text>
+<text x="501.6" y="92" fill="#7c7c8a" textLength="202.8" lengthAdjust="spacingAndGlyphs">refactoring orders      4m</text>
+<text x="400.2" y="112" fill="#e8c06c" font-weight="700">🔔 shop-web  </text>
+<text x="501.6" y="112" fill="#e8c06c" textLength="202.8" lengthAdjust="spacingAndGlyphs">waiting on you: Bash?   1m</text>
+<text x="400.2" y="132" fill="#d7d7de">💤 docs      </text>
+<text x="501.6" y="132" fill="#7c7c8a" textLength="202.8" lengthAdjust="spacingAndGlyphs">idle                   22m</text>
+<text x="400.2" y="152" fill="#d7d7de" textLength="101.4" lengthAdjust="spacingAndGlyphs">⚠️ infra     </text>
+<text x="501.6" y="152" fill="#ec6f7a" textLength="202.8" lengthAdjust="spacingAndGlyphs">stale (no heartbeat)    2h</text>
+<rect x="189.6" y="44" width="195.0" height="28" rx="6" fill="#2b2b36" stroke="#8fcf7a"/>
+<text x="205.2" y="63" fill="#d7d7de">🔔 shop-web needs you</text>
+</svg>

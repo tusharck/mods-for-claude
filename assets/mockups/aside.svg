@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="310" viewBox="0 0 785 310" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="310" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="288.6" lengthAdjust="spacingAndGlyphs">switch the cart to optimistic updates</text>
+<text x="18.0" y="86" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Read</text>
+<text x="64.8" y="86" fill="#7c7c8a" textLength="163.8" lengthAdjust="spacingAndGlyphs">(src/cart/useCart.ts)</text>
+<text x="18.0" y="106" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="106" fill="#d7d7de" font-weight="700" textLength="46.8" lengthAdjust="spacingAndGlyphs">Update</text>
+<text x="80.4" y="106" fill="#7c7c8a" textLength="163.8" lengthAdjust="spacingAndGlyphs">(src/cart/useCart.ts)</text>
+<text x="18.0" y="126" fill="#d97757" textLength="226.2" lengthAdjust="spacingAndGlyphs">✶ Working… (esc to interrupt)</text>
+<rect x="14" y="154" width="413.4" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="178" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="178" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="212" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">? for shortcuts</text>
+<rect x="439.0" y="46" width="324.0" height="244" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="447.0" y="66" fill="#d97757" font-weight="700">💬 Aside</text>
+<text x="447.0" y="92" fill="#d7d7de" font-weight="700" textLength="226.2" lengthAdjust="spacingAndGlyphs">&gt; what does useOptimistic do?</text>
+<text x="447.0" y="112" fill="#d7d7de" textLength="241.8" lengthAdjust="spacingAndGlyphs">It shows a guessed result right</text>
+<text x="447.0" y="132" fill="#d7d7de" textLength="249.6" lengthAdjust="spacingAndGlyphs">away, then swaps in the real one</text>
+<text x="447.0" y="152" fill="#d7d7de" textLength="241.8" lengthAdjust="spacingAndGlyphs">when the server replies. If the</text>
+<text x="447.0" y="172" fill="#d7d7de" textLength="202.8" lengthAdjust="spacingAndGlyphs">call fails, it rolls back.</text>
+<text x="447.0" y="192" fill="#7c7c8a" textLength="202.8" lengthAdjust="spacingAndGlyphs">0.8s · 212 tokens · cached</text>
+<text x="447.0" y="232" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="462.6" y="232" fill="#3a3a46" textLength="101.4" lengthAdjust="spacingAndGlyphs">ask anything…</text>
+<text x="447.0" y="272" fill="#7c7c8a" font-style="italic" textLength="202.8" lengthAdjust="spacingAndGlyphs">not added to the main chat</text>
+</svg>

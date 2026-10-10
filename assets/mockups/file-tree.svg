@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="370" viewBox="0 0 785 370" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="370" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="273.0" lengthAdjust="spacingAndGlyphs">fix the rounding bug in cart totals</text>
+<text x="18.0" y="86" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Read</text>
+<text x="64.8" y="86" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">(src/cart/totals.ts)</text>
+<text x="18.0" y="106" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="106" fill="#7c7c8a" textLength="101.4" lengthAdjust="spacingAndGlyphs">Read 84 lines</text>
+<text x="18.0" y="126" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="126" fill="#d7d7de" font-weight="700" textLength="46.8" lengthAdjust="spacingAndGlyphs">Update</text>
+<text x="80.4" y="126" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">(src/cart/totals.ts)</text>
+<text x="18.0" y="146" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="146" fill="#7c7c8a" textLength="296.4" lengthAdjust="spacingAndGlyphs">Updated with 3 additions and 1 removal</text>
+<text x="18.0" y="166" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="166" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Grep</text>
+<text x="64.8" y="166" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs">(&quot;roundCents&quot;)</text>
+<text x="18.0" y="186" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="186" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">Found 4 matches</text>
+<text x="18.0" y="206" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="206" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Read</text>
+<text x="64.8" y="206" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">(src/utils/money.ts)</text>
+<rect x="14" y="234" width="491.4" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="258" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="258" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="292" fill="#7c7c8a" textLength="101.4" lengthAdjust="spacingAndGlyphs">/tree to hide</text>
+<rect x="517.0" y="46" width="246.0" height="304" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="525.0" y="66" fill="#d97757" font-weight="700">🌳 shop-api</text>
+<text x="525.0" y="92" fill="#d7d7de" textLength="46.8" lengthAdjust="spacingAndGlyphs">▾ src </text>
+<text x="571.8" y="92" fill="#e8c06c" textLength="7.8" lengthAdjust="spacingAndGlyphs">●</text>
+<text x="525.0" y="112" fill="#d7d7de" textLength="70.2" lengthAdjust="spacingAndGlyphs">  ▾ cart </text>
+<text x="595.2" y="112" fill="#8fcf7a" textLength="7.8" lengthAdjust="spacingAndGlyphs">●</text>
+<text x="525.0" y="132" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs">      index.ts</text>
+<text x="525.0" y="152" fill="#8fcf7a" font-weight="700" textLength="117.0" lengthAdjust="spacingAndGlyphs">      totals.ts</text>
+<text x="642.0" y="152" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs"> ✓</text>
+<text x="525.0" y="172" fill="#7c7c8a" textLength="54.6" lengthAdjust="spacingAndGlyphs">  ▸ api</text>
+<text x="525.0" y="192" fill="#d7d7de" textLength="78.0" lengthAdjust="spacingAndGlyphs">  ▾ utils </text>
+<text x="603.0" y="192" fill="#e8c06c" textLength="7.8" lengthAdjust="spacingAndGlyphs">●</text>
+<text x="525.0" y="212" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs">      dates.ts</text>
+<text x="525.0" y="232" fill="#d7d7de" textLength="46.8" lengthAdjust="spacingAndGlyphs">      </text>
+<rect x="569.8" y="218" width="66.4" height="19" rx="3" fill="url(#shimmer)"/>
+<text x="571.8" y="232" fill="#ffffff" textLength="62.4" lengthAdjust="spacingAndGlyphs">money.ts</text>
+<text x="634.2" y="232" fill="#c792ea" font-style="italic" textLength="62.4" lengthAdjust="spacingAndGlyphs"> reading</text>
+<text x="525.0" y="252" fill="#7c7c8a" textLength="54.6" lengthAdjust="spacingAndGlyphs">▸ tests</text>
+<text x="525.0" y="272" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs">  package.json</text>
+<text x="525.0" y="292" fill="#7c7c8a" textLength="85.8" lengthAdjust="spacingAndGlyphs">  README.md</text>
+<text x="525.0" y="332" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="540.6" y="332" fill="#7c7c8a" textLength="54.6" lengthAdjust="spacingAndGlyphs">saved  </text>
+<text x="595.2" y="332" fill="#e8c06c" textLength="15.6" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="610.8" y="332" fill="#7c7c8a" textLength="70.2" lengthAdjust="spacingAndGlyphs">editing  </text>
+<text x="681.0" y="332" fill="#ec6f7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">● </text>
+<text x="696.6" y="332" fill="#7c7c8a" textLength="46.8" lengthAdjust="spacingAndGlyphs">failed</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="290" viewBox="0 0 785 290" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="290" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="280.8" lengthAdjust="spacingAndGlyphs">migrate the date helpers to date-fns</text>
+<text x="18.0" y="86" fill="#d97757" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" textLength="226.2" lengthAdjust="spacingAndGlyphs">Done: 7 edits across 4 files.</text>
+<rect x="18.0" y="112" width="156.0" height="19" rx="4" fill="#d97757"/>
+<text x="21.9" y="126" fill="#ffffff" font-weight="700">r</text>
+<text x="37.5" y="126" fill="#ffffff" textLength="124.8" lengthAdjust="spacingAndGlyphs">▶ Replay 7 edits</text>
+<text x="181.8" y="126" fill="#d7d7de" textLength="7.8" lengthAdjust="spacingAndGlyphs"> </text>
+<rect x="189.6" y="112" width="85.8" height="19" rx="4" fill="#2b2b36"/>
+<text x="193.5" y="126" fill="#d97757" font-weight="700">x</text>
+<text x="209.1" y="126" fill="#d7d7de" textLength="54.6" lengthAdjust="spacingAndGlyphs">Dismiss</text>
+<rect x="14" y="140" width="366.6" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="164" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="164" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="198" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">? for shortcuts</text>
+<rect x="392.2" y="46" width="370.8" height="224" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="400.2" y="66" fill="#d97757" font-weight="700">🎬 Replay  3 / 7</text>
+<text x="400.2" y="92" fill="#5fc4d4" textLength="140.4" lengthAdjust="spacingAndGlyphs">src/utils/dates.ts</text>
+<text x="400.2" y="132" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> 4 </text>
+<rect x="421.6" y="118" width="230.2" height="19" rx="3" fill="#3f1f25"/>
+<text x="423.6" y="132" fill="#ec6f7a" textLength="226.2" lengthAdjust="spacingAndGlyphs">- import moment from &#x27;moment&#x27;</text>
+<text x="400.2" y="152" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> 4 </text>
+<rect x="421.6" y="138" width="277.0" height="19" rx="3" fill="#1d3a26"/>
+<text x="423.6" y="152" fill="#8fcf7a" textLength="273.0" lengthAdjust="spacingAndGlyphs">+ import { format } from &#x27;date-fns&#x27;</text>
+<text x="400.2" y="172" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> 5 </text>
+<text x="423.6" y="172" fill="#d7d7de" textLength="15.6" lengthAdjust="spacingAndGlyphs">  </text>
+<text x="400.2" y="192" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> 9 </text>
+<rect x="421.6" y="178" width="261.4" height="19" rx="3" fill="#3f1f25"/>
+<text x="423.6" y="192" fill="#ec6f7a" textLength="257.4" lengthAdjust="spacingAndGlyphs">-   return moment(d).format(&#x27;LL&#x27;)</text>
+<text x="400.2" y="212" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> 9 </text>
+<rect x="421.6" y="198" width="206.8" height="19" rx="3" fill="#1d3a26"/>
+<text x="423.6" y="212" fill="#8fcf7a" textLength="202.8" lengthAdjust="spacingAndGlyphs">+   return format(d, &#x27;PP&#x27;)</text>
+<rect x="400.2" y="238" width="62.4" height="19" rx="4" fill="#2b2b36"/>
+<text x="404.1" y="252" fill="#d97757" font-weight="700">←</text>
+<text x="419.7" y="252" fill="#d7d7de" textLength="31.2" lengthAdjust="spacingAndGlyphs">Prev</text>
+<rect x="470.4" y="238" width="62.4" height="19" rx="4" fill="#d97757"/>
+<text x="474.3" y="252" fill="#ffffff" font-weight="700">→</text>
+<text x="489.9" y="252" fill="#ffffff" textLength="31.2" lengthAdjust="spacingAndGlyphs">Next</text>
+<rect x="540.6" y="238" width="101.4" height="19" rx="4" fill="#2b2b36"/>
+<text x="544.5" y="252" fill="#d97757" font-weight="700">a</text>
+<text x="560.1" y="252" fill="#d7d7de" textLength="70.2" lengthAdjust="spacingAndGlyphs">Auto-play</text>
+<rect x="649.8" y="238" width="85.8" height="19" rx="4" fill="#2b2b36"/>
+<text x="653.7" y="252" fill="#d97757" font-weight="700">esc</text>
+<text x="684.9" y="252" fill="#d7d7de" textLength="39.0" lengthAdjust="spacingAndGlyphs">Close</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="300" viewBox="0 0 785 300" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="300" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="288.6" lengthAdjust="spacingAndGlyphs">now add pagination to the orders list</text>
+<text x="18.0" y="86" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Read</text>
+<text x="64.8" y="86" fill="#7c7c8a" textLength="148.2" lengthAdjust="spacingAndGlyphs">(src/api/orders.ts)</text>
+<text x="18.0" y="106" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="106" fill="#d7d7de" font-weight="700" textLength="46.8" lengthAdjust="spacingAndGlyphs">Update</text>
+<text x="80.4" y="106" fill="#7c7c8a" textLength="148.2" lengthAdjust="spacingAndGlyphs">(src/api/orders.ts)</text>
+<text x="18.0" y="126" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="126" fill="#7c7c8a" textLength="195.0" lengthAdjust="spacingAndGlyphs">Updated with 18 additions</text>
+<text x="18.0" y="146" fill="#d97757" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="146" fill="#d7d7de" textLength="335.4" lengthAdjust="spacingAndGlyphs">Orders now page 20 at a time with a cursor.</text>
+<text x="18.0" y="186" fill="#e8c06c" font-weight="700">⛅ Fair</text>
+<text x="72.6" y="186" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> · </text>
+<text x="96.0" y="186" fill="#d7d7de" font-weight="700" textLength="23.4" lengthAdjust="spacingAndGlyphs">34%</text>
+<text x="119.4" y="186" fill="#7c7c8a" textLength="109.2" lengthAdjust="spacingAndGlyphs"> · 68k/200k · </text>
+<text x="228.6" y="186" fill="#5fc4d4" textLength="54.6" lengthAdjust="spacingAndGlyphs">▁▁▂▂▃▃▅</text>
+<text x="283.2" y="186" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs"> · </text>
+<text x="306.6" y="186" fill="#7c7c8a" textLength="101.4" lengthAdjust="spacingAndGlyphs">+4k last turn</text>
+<rect x="14" y="200" width="748.8" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="224" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="224" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="258" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">? for shortcuts</text>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="310" viewBox="0 0 785 310" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" xml:space="preserve">
+<defs><linearGradient id="shimmer" x1="0" x2="1"><stop offset="0" stop-color="#3a3350"/><stop offset=".5" stop-color="#6b5aa8"/><stop offset="1" stop-color="#3a3350"/><animate attributeName="x1" values="-1;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="1.6s" repeatCount="indefinite"/></linearGradient></defs>
+<rect width="785" height="310" rx="10" fill="#15151b"/>
+<path d="M0 10a10 10 0 0 1 10-10h765a10 10 0 0 1 10 10v24h-785z" fill="#22222b"/>
+<circle cx="18" cy="17.0" r="6" fill="#ff5f57"/>
+<circle cx="36" cy="17.0" r="6" fill="#febc2e"/>
+<circle cx="54" cy="17.0" r="6" fill="#28c840"/>
+<text x="392" y="21.0" fill="#7c7c8a" text-anchor="middle">claude — ~/shop-api</text>
+<text x="771" y="21.0" fill="#3a3a46" font-size="11" text-anchor="end">mockup</text>
+<text x="18.0" y="66" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="33.6" y="66" fill="#d7d7de" font-weight="700" textLength="202.8" lengthAdjust="spacingAndGlyphs">fix the failing cart tests</text>
+<text x="18.0" y="86" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="86" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Bash</text>
+<text x="64.8" y="86" fill="#7c7c8a" textLength="132.6" lengthAdjust="spacingAndGlyphs">(pnpm vitest run)</text>
+<text x="18.0" y="106" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="106" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">7 failed · 41 passed</text>
+<text x="18.0" y="126" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="126" fill="#d7d7de" font-weight="700" textLength="46.8" lengthAdjust="spacingAndGlyphs">Update</text>
+<text x="80.4" y="126" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">(src/cart/totals.ts)</text>
+<text x="18.0" y="146" fill="#8fcf7a" textLength="15.6" lengthAdjust="spacingAndGlyphs">⏺ </text>
+<text x="33.6" y="146" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs">Bash</text>
+<text x="64.8" y="146" fill="#7c7c8a" textLength="132.6" lengthAdjust="spacingAndGlyphs">(pnpm vitest run)</text>
+<text x="18.0" y="166" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="166" fill="#7c7c8a" textLength="156.0" lengthAdjust="spacingAndGlyphs">3 failed · 45 passed</text>
+<text x="18.0" y="186" fill="#7c7c8a" textLength="39.0" lengthAdjust="spacingAndGlyphs">  ⎿  </text>
+<text x="57.0" y="186" fill="#e8c06c" font-weight="700">💥 Hit! -4 HP</text>
+<rect x="14" y="214" width="491.4" height="34" rx="6" fill="none" stroke="#3a3a46"/>
+<text x="24.0" y="238" fill="#7c7c8a" textLength="15.6" lengthAdjust="spacingAndGlyphs">&gt; </text>
+<text x="39.6" y="238" fill="#3a3a46" textLength="202.8" lengthAdjust="spacingAndGlyphs">Try &quot;fix the failing test&quot;</text>
+<text x="18.0" y="272" fill="#7c7c8a" textLength="117.0" lengthAdjust="spacingAndGlyphs">? for shortcuts</text>
+<rect x="517.0" y="46" width="246.0" height="244" rx="6" fill="#1b1b23" stroke="#3a3a46"/>
+<text x="525.0" y="66" fill="#d97757" font-weight="700">👾 Bug Boss</text>
+<rect x="612.0" y="78" width="10" height="10" fill="#d9534f"/>
+<rect x="622.0" y="78" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="78" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="78" width="10" height="10" fill="#d9534f"/>
+<rect x="652.0" y="78" width="10" height="10" fill="#d9534f"/>
+<rect x="662.0" y="78" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="612.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="622.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="652.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="662.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="672.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="682.0" y="88" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="98" width="10" height="10" fill="#ffffff"/>
+<rect x="612.0" y="98" width="10" height="10" fill="#ffffff"/>
+<rect x="622.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="652.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="662.0" y="98" width="10" height="10" fill="#ffffff"/>
+<rect x="672.0" y="98" width="10" height="10" fill="#ffffff"/>
+<rect x="682.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="98" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="108" width="10" height="10" fill="#ffffff"/>
+<rect x="612.0" y="108" width="10" height="10" fill="#15151b"/>
+<rect x="622.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="652.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="662.0" y="108" width="10" height="10" fill="#ffffff"/>
+<rect x="672.0" y="108" width="10" height="10" fill="#15151b"/>
+<rect x="682.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="108" width="10" height="10" fill="#d9534f"/>
+<rect x="572.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="612.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="622.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="652.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="662.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="672.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="682.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="702.0" y="118" width="10" height="10" fill="#d9534f"/>
+<rect x="572.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="612.0" y="128" width="10" height="10" fill="#15151b"/>
+<rect x="622.0" y="128" width="10" height="10" fill="#15151b"/>
+<rect x="632.0" y="128" width="10" height="10" fill="#15151b"/>
+<rect x="642.0" y="128" width="10" height="10" fill="#15151b"/>
+<rect x="652.0" y="128" width="10" height="10" fill="#15151b"/>
+<rect x="662.0" y="128" width="10" height="10" fill="#15151b"/>
+<rect x="672.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="682.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="702.0" y="128" width="10" height="10" fill="#d9534f"/>
+<rect x="572.0" y="138" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="138" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="138" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="138" width="10" height="10" fill="#15151b"/>
+<rect x="612.0" y="138" width="10" height="10" fill="#ffffff"/>
+<rect x="622.0" y="138" width="10" height="10" fill="#15151b"/>
+<rect x="632.0" y="138" width="10" height="10" fill="#ffffff"/>
+<rect x="642.0" y="138" width="10" height="10" fill="#ffffff"/>
+<rect x="652.0" y="138" width="10" height="10" fill="#15151b"/>
+<rect x="662.0" y="138" width="10" height="10" fill="#ffffff"/>
+<rect x="672.0" y="138" width="10" height="10" fill="#15151b"/>
+<rect x="682.0" y="138" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="138" width="10" height="10" fill="#d9534f"/>
+<rect x="702.0" y="138" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="612.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="622.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="652.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="662.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="672.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="682.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="148" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="158" width="10" height="10" fill="#d9534f"/>
+<rect x="602.0" y="158" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="158" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="158" width="10" height="10" fill="#d9534f"/>
+<rect x="672.0" y="158" width="10" height="10" fill="#d9534f"/>
+<rect x="682.0" y="158" width="10" height="10" fill="#d9534f"/>
+<rect x="582.0" y="168" width="10" height="10" fill="#d9534f"/>
+<rect x="592.0" y="168" width="10" height="10" fill="#d9534f"/>
+<rect x="632.0" y="168" width="10" height="10" fill="#d9534f"/>
+<rect x="642.0" y="168" width="10" height="10" fill="#d9534f"/>
+<rect x="682.0" y="168" width="10" height="10" fill="#d9534f"/>
+<rect x="692.0" y="168" width="10" height="10" fill="#d9534f"/>
+<text x="525.0" y="192" fill="#7c7c8a" textLength="23.4" lengthAdjust="spacingAndGlyphs">HP </text>
+<text x="548.4" y="192" fill="#ec6f7a" textLength="23.4" lengthAdjust="spacingAndGlyphs">███</text>
+<text x="571.8" y="192" fill="#3a3a46" textLength="31.2" lengthAdjust="spacingAndGlyphs">░░░░</text>
+<text x="603.0" y="192" fill="#d7d7de" font-weight="700" textLength="31.2" lengthAdjust="spacingAndGlyphs"> 3/7</text>
+<text x="525.0" y="212" fill="#7c7c8a" textLength="163.8" lengthAdjust="spacingAndGlyphs">3 tests still failing</text>
+</svg>
