@@ -12,14 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-call result hook · model context · toast |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [yash-gadodia/claude-mods](https://github.com/yash-gadodia/claude-mods/tree/main/deploy-verify) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add yash-gadodia/claude-mods
-claude plugin install deploy-verify@claude-mods
-```
 
 ## What it does
 

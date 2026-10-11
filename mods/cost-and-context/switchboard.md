@@ -12,16 +12,6 @@
 | **Category** | Cost & Context |
 | **Surfaces** | Tool-call rewrite · band above prompt · pane · slash command |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add hamzafer/claude-code-mods
-claude plugin install switchboard@claude-code-mods
-```
-
-The picker is configurable: `off` (default, only tracks cost), `openai` ([Decisions API](https://developers.openai.com/api/docs/guides/decisions)) or `jev` ([TypeSafe's Jev](https://docs.typesafe.ai)). Only the subagent's type and short label are sent, never its task text. Mode `suggest` shows the pick without applying it.
 
 ## What it does
 

@@ -13,10 +13,6 @@
 | **Surfaces** | Band above prompt (confirm) · status line · slash command |
 | **Difficulty** | 🟡 Medium |
 
-## Ready-made alternative
-
-**Cache Keeper** (nateherkai/claude-code-mods) includes a cold-send guard (Send anyway / Compact first / Cancel) and `/keepwarm`. See [Cachekeeper](cachekeeper.md#ready-made-version) for install.
-
 ## What it does
 
 - Tracks when the conversation last hit the API. Past the cache TTL (5 minutes by default, 1 hour on some setups, configurable), the next prompt pays to write the whole context to the cache again.

@@ -12,16 +12,6 @@
 | **Category** | Look & Feel · Visibility & Awareness · Cost & Context · Safety & Guardrails · Feedback & Learning · Prompting & Flow · Multi-Session · Fun & Ambient |
 | **Surfaces** | Pane · band above prompt · status line · toast · slash command · tool-call guard · transcript rows |
 | **Difficulty** | 🟢 Easy · 🟡 Medium · 🔴 Hard |
-| **Source** | Link to a published version, if one exists (omit otherwise) |
-
-## Ready-made version
-
-_(Only if someone already published it.)_
-
-```bash
-claude plugin marketplace add <owner>/<repo>
-claude plugin install <mod>@<marketplace>
-```
 
 ## What it does
 

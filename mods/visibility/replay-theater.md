@@ -12,20 +12,6 @@
 | **Category** | Visibility & Awareness |
 | **Surfaces** | Band above prompt · Pane |
 | **Difficulty** | 🟡 Medium |
-| **Source** | **Anthropic sample** in [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods/replay-theater) |
-
-## Ready-made version
-
-Anthropic publishes it as an example mod, shared as-is without support:
-
-```bash
-git clone https://github.com/anthropics/claude-code-playground
-cd claude-code-playground/claude-code/mods
-claude plugin marketplace add ./
-claude plugin install replay-theater@claude-code-playground-mods --scope user
-```
-
-A community port is also in [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) (`replay-theater@claude-code-mods`).
 
 ## What it does
 

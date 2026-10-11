@@ -13,15 +13,6 @@
 | **Surfaces** | Status line · pane · slash command · toast |
 | **Difficulty** | 🔴 Hard |
 
-## Ready-made (partial)
-
-**Cache Keeper** (nateherkai/claude-code-mods) includes a `/board` pane listing every local chat (waiting first, then working, then cooling), with context, cost and cache state. Read the code before installing.
-
-```bash
-claude plugin marketplace add nateherkai/claude-code-mods
-claude plugin install cache-keeper@nateherk-mods
-```
-
 ## What it does
 
 - Each session writes a small **heartbeat** file: project, status, current task, last activity, waiting-for-permission flag.

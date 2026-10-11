@@ -4,14 +4,14 @@
 
 **A curated catalogue of Claude Code mods, each with a copy-paste prompt that builds it for you.**
 
-*35 mods · 8 categories · install the ready-made ones or build your own*
+*35 mods · 8 categories · build your own with a copy-paste prompt*
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-2.1.287%2B-D97757?style=flat-square)
 ![Mods](https://img.shields.io/badge/mods-35-8A63D2?style=flat-square)
 ![Surfaces](https://img.shields.io/badge/terminal_%2B_desktop-supported-2EA44F?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
-[Peek](#-a-peek) · [Quick start](#-quick-start) · [Catalogue](#-the-catalogue) · [How mods work](#-what-is-a-mod) · [Find more](#-find-more-mods) · [Contribute](#-contributing)
+[Peek](#-a-peek) · [Quick start](#-quick-start) · [Catalogue](#-the-catalogue) · [How mods work](#-what-is-a-mod) · [Contribute](#-contributing)
 
 </div>
 
@@ -59,14 +59,7 @@ claude --version      # update with: claude update
 
 **2. Pick a mod** from the [catalogue](#-the-catalogue) and open its page.
 
-**3. Either install the ready-made version** (if it has one):
-
-```bash
-claude plugin marketplace add <owner>/<repo>
-claude plugin install <mod>@<marketplace>
-```
-
-**…or build your own:** copy the **Build prompt** block and paste it into Claude Code.
+**3. Build your own.** Copy the **Build prompt** block from the mod's page and paste it into Claude Code.
 
 **4. Say yes to hot reloading.** When Claude writes the mod's first file, Claude Code asks:
 
@@ -84,103 +77,90 @@ Choose **Enable for this session**. Only you can answer this question, so it isn
 
 ## 📚 The catalogue
 
-**Legend:** 🏛️ Anthropic (built in or official sample) · 📦 Community version you can install · ✍️ Prompt only, build it yourself
+**Legend:** ✍️ Prompt only — build it yourself
 
 ### 🎨 Look & Feel
 *Make Claude Code look and feel like yours.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Claude Skins](mods/look-and-feel/claude-skins.md) | An icon for each tool, coloured diffs, switchable themes (Tokyo Night default) | transcript · `/skin` | ✍️ |
-| [Terminal Browser](mods/look-and-feel/terminal-browser.md) | Preview localhost, HTML files and PRs in a pane | pane · `/browse` | ✍️ |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Claude Skins](mods/look-and-feel/claude-skins.md) | An icon for each tool, coloured diffs, switchable themes (Tokyo Night default) | transcript · `/skin` |
+| [Terminal Browser](mods/look-and-feel/terminal-browser.md) | Preview localhost, HTML files and PRs in a pane | pane · `/browse` |
 
 ### 👀 Visibility & Awareness
 *See what Claude is doing while it does it.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Savvy Progress](mods/visibility/savvy-progress.md) | Progress bar plus a live panel of subagents with model and cost | band · pane | ✍️ |
-| [File Tree](mods/visibility/file-tree.md) | Project tree that shimmers on reads and turns green on saved edits | pane · `/tree` | ✍️ |
-| [Goal Tracker](mods/visibility/goal-tracker.md) | `/goal` with a timer, phase and live checklist | pane · status | 📦 |
-| [Replay Theater](mods/visibility/replay-theater.md) | ▶ Replay a turn's edits one diff at a time | band · pane | 🏛️ |
-| [You Should Know](mods/visibility/you-should-know.md) | Pins costs, security notes and to-dos buried in long replies | band · toast | 🏛️ built in |
-| [Token Weather](mods/visibility/token-weather.md) | Context fill as a weather forecast, with a sparkline | band | 🏛️ |
-| [Receipt](mods/visibility/receipt.md) | End-of-turn receipt that flags "fixed" claims nothing verified | turn line · toast | 📦 |
-| [PR Tracker](mods/visibility/pr-tracker.md) | Watch PRs' checks, reviews and merge state | band · toast | 📦 |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Savvy Progress](mods/visibility/savvy-progress.md) | Progress bar plus a live panel of subagents with model and cost | band · pane |
+| [File Tree](mods/visibility/file-tree.md) | Project tree that shimmers on reads and turns green on saved edits | pane · `/tree` |
+| [Goal Tracker](mods/visibility/goal-tracker.md) | `/goal` with a timer, phase and live checklist | pane · status |
+| [Replay Theater](mods/visibility/replay-theater.md) | ▶ Replay a turn's edits one diff at a time | band · pane |
+| [You Should Know](mods/visibility/you-should-know.md) | Pins costs, security notes and to-dos buried in long replies | band · toast |
+| [Token Weather](mods/visibility/token-weather.md) | Context fill as a weather forecast, with a sparkline | band |
+| [Receipt](mods/visibility/receipt.md) | End-of-turn receipt that flags "fixed" claims nothing verified | turn line · toast |
+| [PR Tracker](mods/visibility/pr-tracker.md) | Watch PRs' checks, reviews and merge state | band · toast |
 
 ### 💰 Cost & Context
 *Spend less and keep the context window healthy.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Cash Tax](mods/cost-and-context/cash-tax.md) | Warns before a cold-cache resend, plus `/keepwarm` | band · status | 📦 |
-| [Cachekeeper](mods/cost-and-context/cachekeeper.md) | Cache countdown, context % and a one-click Session Handoff | status · band | 📦 |
-| [Context Handoff](mods/cost-and-context/context-handoff.md) | Automatic handoff and fresh start when context fills up | band | 📦 |
-| [Switchboard](mods/cost-and-context/switchboard.md) | Picks the model for each subagent (supports **Jev**), shows cost per subagent | band · pane | 📦 |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Cash Tax](mods/cost-and-context/cash-tax.md) | Warns before a cold-cache resend, plus `/keepwarm` | band · status |
+| [Cachekeeper](mods/cost-and-context/cachekeeper.md) | Cache countdown, context % and a one-click Session Handoff | status · band |
+| [Context Handoff](mods/cost-and-context/context-handoff.md) | Automatic handoff and fresh start when context fills up | band |
+| [Switchboard](mods/cost-and-context/switchboard.md) | Picks the model for each subagent (supports **Jev**), shows cost per subagent | band · pane |
 
 ### 🛡️ Safety & Guardrails
 *Catch mistakes before they happen.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Blast Radius](mods/safety/blast-radius.md) | Shows what a destructive command will hit and asks you to approve | dialog | 🏛️ |
-| [Collision Guard](mods/safety/collision-guard.md) | Stops edits to files someone else changed recently | dialog | 📦 |
-| [Privacy Blur](mods/safety/privacy-blur.md) | `/record on` masks secrets **on screen** | transcript · status | 📦 |
-| [Secret Redactor](mods/safety/secret-redactor.md) | Hides secrets **from the model**, puts them back in files | tool results | 📦 |
-| [Scope Guard](mods/safety/scope-guard.md) | Stops a turn that edits too many files | guard · band | 📦 |
-| [Merge Gate](mods/safety/merge-gate.md) | No merge or push to main until CI is green | guard | 📦 |
-| [Deploy Verify](mods/safety/deploy-verify.md) | Proves a deploy worked (CI + live URL) before Claude claims it | tool result · toast | 📦 |
-| [DevTools](mods/safety/devtools.md) | Breakpoints, step and inspect for tool calls | dialog · pane | 📦 |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Blast Radius](mods/safety/blast-radius.md) | Shows what a destructive command will hit and asks you to approve | dialog |
+| [Collision Guard](mods/safety/collision-guard.md) | Stops edits to files someone else changed recently | dialog |
+| [Privacy Blur](mods/safety/privacy-blur.md) | `/record on` masks secrets **on screen** | transcript · status |
+| [Secret Redactor](mods/safety/secret-redactor.md) | Hides secrets **from the model**, puts them back in files | tool results |
+| [Scope Guard](mods/safety/scope-guard.md) | Stops a turn that edits too many files | guard · band |
+| [Merge Gate](mods/safety/merge-gate.md) | No merge or push to main until CI is green | guard |
+| [Deploy Verify](mods/safety/deploy-verify.md) | Proves a deploy worked (CI + live URL) before Claude claims it | tool result · toast |
+| [DevTools](mods/safety/devtools.md) | Breakpoints, step and inspect for tool calls | dialog · pane |
 
 ### 🧠 Feedback & Learning
 *Teach Claude once, so you don't have to repeat yourself.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Reflect](mods/feedback-and-learning/reflect.md) | Turns your corrections into `CLAUDE.md` rules | band | ✍️ |
-| [Assumption Checker](mods/feedback-and-learning/assumption-checker.md) | Lists Claude's assumptions; mark ✅/❌ and it fixes the wrong ones | band | ✍️ |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Reflect](mods/feedback-and-learning/reflect.md) | Turns your corrections into `CLAUDE.md` rules | band |
+| [Assumption Checker](mods/feedback-and-learning/assumption-checker.md) | Lists Claude's assumptions; mark ✅/❌ and it fixes the wrong ones | band |
 
 ### ✍️ Prompting & Flow
 *Less typing, fewer interruptions.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Prompt Enhancer](mods/prompting-and-flow/prompt-enhancer.md) | ✨ Rewrites a vague prompt in place | band | ✍️ |
-| [Next Steps](mods/prompting-and-flow/next-steps.md) | 3 one-press next actions after each turn | band | 📦 |
-| [Idea Shelf](mods/prompting-and-flow/idea-shelf.md) | `/idea` saves thoughts mid-turn for later | pane · status | ✍️ |
-| [No-Jargon Summarizer](mods/prompting-and-flow/no-jargon-summarizer.md) | Collapses the chatter and ends with a plain-English summary | transcript · card | ✍️ |
-| [Aside](mods/prompting-and-flow/aside.md) | Side-chat questions that never touch the main thread | pane · `/aside` | 📦 |
-| [Copy Band](mods/prompting-and-flow/copy-band.md) | One-press copy for every code block | band | 📦 |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Prompt Enhancer](mods/prompting-and-flow/prompt-enhancer.md) | ✨ Rewrites a vague prompt in place | band |
+| [Next Steps](mods/prompting-and-flow/next-steps.md) | 3 one-press next actions after each turn | band |
+| [Idea Shelf](mods/prompting-and-flow/idea-shelf.md) | `/idea` saves thoughts mid-turn for later | pane · status |
+| [No-Jargon Summarizer](mods/prompting-and-flow/no-jargon-summarizer.md) | Collapses the chatter and ends with a plain-English summary | transcript · card |
+| [Aside](mods/prompting-and-flow/aside.md) | Side-chat questions that never touch the main thread | pane · `/aside` |
+| [Copy Band](mods/prompting-and-flow/copy-band.md) | One-press copy for every code block | band |
 
 ### 🤝 Multi-Session
 *For when you run more than one Claude at a time.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Global Session Manager](mods/multi-session/global-session-manager.md) | Every session's status, and who needs you | status · pane · toast | 📦 partial |
-| [Same Folder Tracker](mods/multi-session/same-folder-tracker.md) | Warns when another session works in your folder | band · toast | ✍️ |
-| [Done Blink](mods/multi-session/done-blink.md) | Blinks the terminal tab when a turn finishes | tab colour | 📦 |
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Global Session Manager](mods/multi-session/global-session-manager.md) | Every session's status, and who needs you | status · pane · toast |
+| [Same Folder Tracker](mods/multi-session/same-folder-tracker.md) | Warns when another session works in your folder | band · toast |
+| [Done Blink](mods/multi-session/done-blink.md) | Blinks the terminal tab when a turn finishes | tab colour |
 
 ### 🎮 Fun & Ambient
 *Because waiting for Claude should be fun.*
 
-| Mod | What it does | Where it shows | Get it |
-|---|---|---|---|
-| [Boss Fight](mods/fun-and-ambient/boss-fight.md) | Failing tests spawn a pixel boss you beat by fixing them | pane (pixels) | 📦 |
-| [Session Wrapped](mods/fun-and-ambient/session-wrapped.md) | A "Spotify Wrapped" recap of your session, week or month | pane · PNG | 📦 |
-
-<details>
-<summary><b>🎁 Honourable mentions</b> (community, not written up yet)</summary>
-
-| Mod | What it does |
-|---|---|
-| [Mindful-Claude](https://github.com/halluton/Mindful-Claude) | A breathing exercise band while a turn runs |
-| [intermission](https://github.com/jarrodwatts/intermission) | Play Doom deathmatch while Claude works |
-| [redgreen](https://github.com/hellosverre/redgreen) | Test results, failure details and run history in a pane |
-| [launch-codes](https://github.com/OneWave-AI/claude-code-mods/tree/main/launch-codes) | A one-time code before risky commands (Blast Radius's strict cousin) |
-| [inbox-alerts](https://github.com/OneWave-AI/claude-code-mods/tree/main/inbox-alerts) | Gmail / Slack / Calendar toasts while you code |
-
-</details>
+| Mod | What it does | Where it shows |
+|---|---|---|
+| [Boss Fight](mods/fun-and-ambient/boss-fight.md) | Failing tests spawn a pixel boss you beat by fixing them | pane (pixels) |
+| [Session Wrapped](mods/fun-and-ambient/session-wrapped.md) | A "Spotify Wrapped" recap of your session, week or month | pane · PNG |
 
 ---
 
@@ -223,22 +203,9 @@ For local development, `claude --plugin-dir <folder>` loads a mod for one sessio
 
 ---
 
-## 🔭 Find more mods
-
-- **[karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods)**: a scanned community catalogue that records what each mod can read, write, run or send (browsable at [mods.aidojo.si](https://mods.aidojo.si))
-- **[anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods)**: Anthropic's example mods
-- **[Claude directory](https://claude.ai/directory)**: plugins (including mods) from the official directory
-- **[Mods docs](https://code.claude.com/docs/en/plugins/mods/overview)** · **[Interface gallery](https://code.claude.com/docs/en/plugins/mods/gallery)**: the official reference
-- Collections used here: [nateherkai](https://github.com/nateherkai/claude-code-mods) · [hamzafer](https://github.com/hamzafer/claude-code-mods) · [yash-gadodia](https://github.com/yash-gadodia/claude-mods) · [OneWave-AI](https://github.com/OneWave-AI/claude-code-mods)
-
-> [!IMPORTANT]
-> **hamzafer** and **OneWave-AI** both name their marketplace `claude-code-mods`. You can only add one of them at a time under that name.
-
----
-
 ## 🙏 Acknowledgements
 
-Ready-made mods linked here belong to their authors and are under their own licenses. Read a mod's code before you install it. This catalogue and its build prompts are curated by [@tusharck](https://github.com/tusharck).
+This catalogue and its build prompts are curated by [@tusharck](https://github.com/tusharck).
 
 ---
 

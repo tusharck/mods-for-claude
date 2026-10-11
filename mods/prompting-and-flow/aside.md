@@ -12,14 +12,6 @@
 | **Category** | Prompting & Flow |
 | **Surfaces** | Pane with input · slash command |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [JayDoubleu/aside](https://github.com/JayDoubleu/aside) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add JayDoubleu/aside
-claude plugin install aside@aside
-```
 
 ## What it does
 

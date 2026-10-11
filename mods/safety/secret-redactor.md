@@ -12,14 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-result rewrite · tool-input rewrite · status line |
 | **Difficulty** | 🔴 Hard |
-| **Source** | [karanb192/claude-code-redact](https://github.com/karanb192/claude-code-redact) · similar: [ray-amjad/awesome-claude-code-function-hooks](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/main/plugins/secret-redactor) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add karanb192/claude-code-redact
-claude plugin install redact@claude-code-redact
-```
 
 ## What it does
 

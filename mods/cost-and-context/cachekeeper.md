@@ -12,18 +12,6 @@
 | **Category** | Cost & Context |
 | **Surfaces** | Status line · band above prompt · slash command |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [nateherkai/claude-code-mods](https://github.com/nateherkai/claude-code-mods) |
-
-## Ready-made version
-
-The published **Cache Keeper** does all of this and more: a cold-send guard, `/keepwarm`, a `/board` of every local chat, and a `/handoff` that runs a bundled skill. Read the code before installing.
-
-```bash
-claude plugin marketplace add nateherkai/claude-code-mods
-claude plugin install cache-keeper@nateherk-mods
-```
-
-Open a new chat afterwards: the mod loads when a chat starts.
 
 ## What it does
 

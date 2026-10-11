@@ -12,14 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-call guard · band above prompt · slash command |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [yash-gadodia/claude-mods](https://github.com/yash-gadodia/claude-mods/tree/main/scope-guard) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add yash-gadodia/claude-mods
-claude plugin install scope-guard@claude-mods
-```
 
 ## What it does
 

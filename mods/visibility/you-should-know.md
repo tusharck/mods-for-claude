@@ -12,17 +12,6 @@
 | **Category** | Visibility & Awareness |
 | **Surfaces** | Band above prompt · toast |
 | **Difficulty** | 🟡 Medium |
-| **Source** | **Anthropic, built in** (`cc-plugin-you-should-know`) |
-
-## Ready-made version
-
-**It ships with Claude Code** but is off by default. Turn it on:
-
-```text
-/plugin enable cc-plugin-you-should-know@builtin
-```
-
-The built-in one runs a side agent and shows a note above the prompt ([docs](https://code.claude.com/docs/en/plugins/mods/overview)). Build the version below if you want a cheaper, regex-first variant you control.
 
 ## What it does
 

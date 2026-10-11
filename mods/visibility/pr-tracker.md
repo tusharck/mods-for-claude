@@ -12,14 +12,6 @@
 | **Category** | Visibility & Awareness |
 | **Surfaces** | Band above prompt · toast · slash command |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [sezaakgun/cc-pr-tracker](https://github.com/sezaakgun/cc-pr-tracker) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add sezaakgun/cc-pr-tracker
-claude plugin install cc-pr-tracker@cc-pr-tracker
-```
 
 ## What it does
 

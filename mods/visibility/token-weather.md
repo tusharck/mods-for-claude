@@ -12,16 +12,6 @@
 | **Category** | Visibility & Awareness |
 | **Surfaces** | Band above prompt |
 | **Difficulty** | 🟢 Easy |
-| **Source** | **Anthropic sample**: [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods/token-weather) |
-
-## Ready-made version
-
-```bash
-git clone https://github.com/anthropics/claude-code-playground
-cd claude-code-playground/claude-code/mods
-claude plugin marketplace add ./
-claude plugin install token-weather@claude-code-playground-mods --scope user
-```
 
 ## What it does
 

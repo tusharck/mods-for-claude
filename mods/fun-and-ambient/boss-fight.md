@@ -12,16 +12,6 @@
 | **Category** | Fun & Ambient |
 | **Surfaces** | Pane with a pixel `Raster` · toast |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [OneWave-AI/claude-code-mods](https://github.com/OneWave-AI/claude-code-mods/tree/main/boss-fight) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add OneWave-AI/claude-code-mods
-claude plugin install boss-fight@claude-code-mods
-```
-
-> ⚠️ OneWave's marketplace and hamzafer's are **both** named `claude-code-mods`. Add only one of them, or remove one before adding the other.
 
 ## What it does
 

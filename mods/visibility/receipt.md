@@ -12,14 +12,6 @@
 | **Category** | Visibility & Awareness |
 | **Surfaces** | Turn-duration line · spinner · toast |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [yash-gadodia/claude-mods](https://github.com/yash-gadodia/claude-mods/tree/main/receipt) · similar: [hoobnn/hoobnn-agent-mods](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/receipt) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add yash-gadodia/claude-mods
-claude plugin install receipt@claude-mods
-```
 
 ## What it does
 

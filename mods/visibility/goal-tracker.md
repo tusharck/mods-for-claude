@@ -12,16 +12,6 @@
 | **Category** | Visibility & Awareness |
 | **Surfaces** | Pane · slash command · status line |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [nateherkai/claude-code-mods](https://github.com/nateherkai/claude-code-mods) (as **Goal Meter**) |
-
-## Ready-made version
-
-A published version ships as **Goal Meter** (`/goals`): a progress bar for `/goal` built from Claude's own task plan, with an ETA and every chat's goal in one pane.
-
-```bash
-claude plugin marketplace add nateherkai/claude-code-mods
-claude plugin install goal-meter@nateherk-mods
-```
 
 ## What it does
 

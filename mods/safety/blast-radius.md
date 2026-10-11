@@ -12,20 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-call guard · focused pane (dialog) |
 | **Difficulty** | 🔴 Hard |
-| **Source** | **Anthropic sample** in [anthropics/claude-code-playground](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods/blast-radius) |
-
-## Ready-made version
-
-Anthropic publishes it as an example mod, shared as-is without support. Its marketplace lives in a subfolder, so clone the repo and add that folder:
-
-```bash
-git clone https://github.com/anthropics/claude-code-playground
-cd claude-code-playground/claude-code/mods
-claude plugin marketplace add ./
-claude plugin install blast-radius@claude-code-playground-mods --scope user
-```
-
-A community port is also in [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) (`blast-radius@claude-code-mods`).
 
 ## What it does
 

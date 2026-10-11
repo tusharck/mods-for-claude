@@ -12,14 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-call hold · pane · transcript rows · slash command |
 | **Difficulty** | 🔴 Hard |
-| **Source** | [NMenzel/claude-devtools-mod](https://github.com/NMenzel/claude-devtools-mod) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add NMenzel/claude-devtools-mod
-claude plugin install devtools@claude-devtools-mod
-```
 
 ## What it does
 

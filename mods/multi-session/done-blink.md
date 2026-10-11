@@ -12,14 +12,6 @@
 | **Category** | Multi-Session |
 | **Surfaces** | Terminal escape sequences · slash command |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [yash-gadodia/claude-mods](https://github.com/yash-gadodia/claude-mods/tree/main/done-blink) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add yash-gadodia/claude-mods
-claude plugin install done-blink@claude-mods
-```
 
 ## What it does
 

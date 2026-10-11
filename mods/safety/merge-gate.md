@@ -12,19 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-call guard · slash command |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) · variant: [yash-gadodia/claude-mods](https://github.com/yash-gadodia/claude-mods/tree/main/merge-gate) |
-
-## Ready-made versions
-
-```bash
-# CI-green + second-model review (hamzafer)
-claude plugin marketplace add hamzafer/claude-code-mods
-claude plugin install merge-gate@claude-code-mods
-
-# "only if my last message says merge" (yash-gadodia)
-claude plugin marketplace add yash-gadodia/claude-mods
-claude plugin install merge-gate@claude-mods
-```
 
 ## What it does
 

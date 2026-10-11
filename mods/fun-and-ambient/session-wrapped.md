@@ -12,16 +12,6 @@
 | **Category** | Fun & Ambient |
 | **Surfaces** | Pane (stepped cards) · image export · slash command |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [OneWave-AI/claude-code-mods](https://github.com/OneWave-AI/claude-code-mods/tree/main/session-wrapped) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add OneWave-AI/claude-code-mods
-claude plugin install session-wrapped@claude-code-mods
-```
-
-> ⚠️ Same marketplace name clash as [Boss Fight](boss-fight.md): OneWave and hamzafer both use `claude-code-mods`.
 
 ## What it does
 

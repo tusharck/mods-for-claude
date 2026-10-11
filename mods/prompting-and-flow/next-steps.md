@@ -13,15 +13,6 @@
 | **Surfaces** | Band above prompt |
 | **Difficulty** | 🟢 Easy |
 
-## Ready-made version
-
-A community version exists in **hamzafer/claude-code-mods** ([repo](https://github.com/hamzafer/claude-code-mods)). Read the code before installing: mods run with your permissions.
-
-```bash
-claude plugin marketplace add hamzafer/claude-code-mods
-claude plugin install next-steps@claude-code-mods
-```
-
 ## What it does
 
 - When a turn ends, shows a dismissible band:

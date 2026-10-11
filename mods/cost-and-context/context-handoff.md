@@ -12,14 +12,6 @@
 | **Category** | Cost & Context |
 | **Surfaces** | Band above prompt · session start |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [cablate/ctx-handoff-mod](https://github.com/cablate/ctx-handoff-mod) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add cablate/ctx-handoff-mod
-claude plugin install ctx-handoff@ctx-handoff-mod
-```
 
 ## What it does
 

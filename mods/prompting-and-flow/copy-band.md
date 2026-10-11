@@ -12,14 +12,6 @@
 | **Category** | Prompting & Flow |
 | **Surfaces** | Band above prompt · toast |
 | **Difficulty** | 🟢 Easy |
-| **Source** | [yash-gadodia/claude-mods](https://github.com/yash-gadodia/claude-mods/tree/main/copy-band) |
-
-## Ready-made version
-
-```bash
-claude plugin marketplace add yash-gadodia/claude-mods
-claude plugin install copy-band@claude-mods
-```
 
 ## What it does
 

@@ -12,18 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Transcript rows (display-only rewrite) · status line · slash command |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [nateherkai/claude-code-mods](https://github.com/nateherkai/claude-code-mods) (as **Recording Mode**) |
-
-## Ready-made version
-
-A published version ships as **Recording Mode** (`/rec`, `/rec strict`, `/rec off`, `/rec config`). It masks keys, personal details and business figures on screen and keeps private files closed while you record.
-
-```bash
-claude plugin marketplace add nateherkai/claude-code-mods
-claude plugin install recording-mode@nateherk-mods
-```
-
-> Want secrets kept away from **the model** too, not just the screen? See [Secret Redactor](secret-redactor.md).
 
 ## What it does
 

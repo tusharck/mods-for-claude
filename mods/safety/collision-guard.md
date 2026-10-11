@@ -12,16 +12,6 @@
 | **Category** | Safety & Guardrails |
 | **Surfaces** | Tool-call guard · focused pane (dialog) |
 | **Difficulty** | 🟡 Medium |
-| **Source** | [nateherkai/claude-code-mods](https://github.com/nateherkai/claude-code-mods) |
-
-## Ready-made version
-
-The published version asks before Claude edits a file another open chat changed in the last 30 minutes (`/guard`). Read the code before installing.
-
-```bash
-claude plugin marketplace add nateherkai/claude-code-mods
-claude plugin install collision-guard@nateherk-mods
-```
 
 ## What it does
 
